@@ -15,7 +15,7 @@ import java.net.HttpURLConnection;
 
 public class OpenMovieJsonUtils {
 
-    public static String[] getSimpleWeatherStringsFromJson(Context context, String movieJsonStr)
+    public static String[] getSimpleMovieStringsFromJson(Context context, String movieJsonStr)
             throws JSONException {
 
         final String MOV_RESULT = "results";

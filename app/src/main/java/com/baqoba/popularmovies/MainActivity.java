@@ -156,7 +156,7 @@ public class MainActivity extends AppCompatActivity implements PosterAdapter.Pos
                 queryResult = NetworkUtils.getResponseFromHttpUrl(searchUrl);
 
                 String[] simpleJsonMovieData = OpenMovieJsonUtils
-                        .getSimpleWeatherStringsFromJson(MainActivity.this, queryResult);
+                        .getSimpleMovieStringsFromJson(MainActivity.this, queryResult);
 
                 return simpleJsonMovieData;
 
