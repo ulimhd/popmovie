@@ -21,7 +21,7 @@ public class NetworkUtils {
             "api_key";
 
     final static String API_KEY =
-            "2414370a4aa434264a5e1fb2d0d0d7de";
+            "dummy_key";
 
     final static String PAGE =
             "page";
